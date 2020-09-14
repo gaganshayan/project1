@@ -64,17 +64,17 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Markup | H | 1hr | hr |
+| Markup | H | 2hr | hr |
 | Page Layout | H | 2hr | hr |
-| Flexbox | H | 1.5hr | hr |  
-| Nav Bar | H | 1hr |  hr | 
-| Hamburger Menu | H | 2hr | hr|
+| Flexbox | H | 3hr | hr |  
+| Nav Bar | H | 3hr |  hr | 
+| Hamburger Menu | H | 3hr | hr|
 | Skills Icons | H | 2hrs|  hr | 
 | Google Sheet API | H | 3hr | hr | hr |
 | Resume Integration | M | 1hr | hr | hr |
 | Contact Form | H | 2hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 16.5hrs| hrs |
+| Social Media Icons | L | 1.5hr |  hr |
+| Total | H | 22.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
