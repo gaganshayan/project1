@@ -20,9 +20,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
+Websites that I am currently drawing inspiration from:
+- https://www.lianapenn.com/ 
+
+
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+Here is the link to my Google Sheet (https://docs.google.com/spreadsheets/d/17eW9wTVR8l_emU9zStJMGSYsyHa9aodt9WKpT9CUEWg/edit#gid=0) 
 
 ## Wireframes
 
