@@ -1,8 +1,10 @@
 body {
     background-color: lightgray;
     font-family: 'Red Hat Display', sans-serif;
+}
 
-
+.navbar {
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .jumbotron {
@@ -12,27 +14,32 @@ body {
     background-position: center center;
     padding-top: 20px;
     padding-bottom: 40px;
-    color: lightgrey;
+    color: white;
     text-align: center;
-}
-
-h1.jumbotron {
-    font-family: 'Press Start 2P', cursive;
+    font-size: 100px;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .about-me {
     background-color: darkgray;
+    font-family: 'Red Hat Display', sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .previous-works {
     background-color: lightgray;
+    font-family: 'Red Hat Display', sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .column {
+    font-family: 'Red Hat Display', sans-serif;
     float: left;
     width: 33.33%;
     padding: 10px;
@@ -41,30 +48,43 @@ h1.jumbotron {
 }
 
 .row {
+    font-family: 'Red Hat Display', sans-serif;
     content: "";
     display: table;
     clear: both;
 }
 
-/* .skills {
-    background-color: lightgray;
+.skills {
+    background-color: darkgray;
+    font-family: 'Red Hat Display', sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
-} */
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .resume {
-    background-color: darkgray;
+    background-color: lightgray;
+    font-family: 'Red Hat Display', sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .contact-me {
-    background-color: lightgray;
+    background-color: darkgray;
+    font-family: 'Red Hat Display', sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .footer {
+    font-family: 'Red Hat Display', sans-serif;
     text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
