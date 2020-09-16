@@ -11,3 +11,23 @@ body {
     font-family: ;
     text-align: center;
 }
+
+.about-me {
+    background-color: lightgray;
+}
+
+.previous-works {
+    background-color: darkgray;
+}
+
+.skills {
+    background-color: lightgray;
+}
+
+.resume {
+    background-color: darkgray;
+}
+
+.contact-me {
+    background-color: lightgray;
+}
