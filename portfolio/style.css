@@ -3,8 +3,8 @@ body {
 }
 
 .jumbotron {
-    background-image: url(https://res.cloudinary.com/dtybx6nov/image/upload/v1600206975/katie-doherty-EqtRCp2C9x8-unsplash_fir3qj.jpg);
-    background-size: auto;
+    background-image: url(https://res.cloudinary.com/dtybx6nov/image/upload/v1600225426/kym-mackinnon-KrrVNx8R640-unsplash_xrhzru.jpg);
+    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center center;
     color: white;
@@ -30,4 +30,8 @@ body {
 
 .contact-me {
     background-color: lightgray;
+}
+
+.footer {
+    text-align: center;
 }
