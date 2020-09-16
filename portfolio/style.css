@@ -1,0 +1,13 @@
+body {
+    background-color: lightgray;
+}
+
+.jumbotron {
+    background-image: url(https://res.cloudinary.com/dtybx6nov/image/upload/v1600206975/katie-doherty-EqtRCp2C9x8-unsplash_fir3qj.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    font-family: ;
+    text-align: center;
+}
