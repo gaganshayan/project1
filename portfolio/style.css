@@ -1,35 +1,52 @@
 body {
     background-color: lightgray;
     font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
 }
 
 .navbar {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-.jumbotron {
+.jumbotron-override {
     background-image: url(https://res.cloudinary.com/dtybx6nov/image/upload/v1600225426/kym-mackinnon-KrrVNx8R640-unsplash_xrhzru.jpg);
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center center;
     padding-top: 20px;
     padding-bottom: 40px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: .3rem;
     color: white;
     text-align: center;
     font-size: 100px;
     font-family: 'Red Hat Display', sans-serif;
 }
 
-.about-me {
+#about-me {
     background-color: darkgray;
     font-family: 'Red Hat Display', sans-serif;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     padding-left: 5%;
     padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.previous-works {
+.profilephoto {
+    width: 25%;
+    height: 25%;
+    /* padding-bottom: 15px; */
+    border-radius: 5%;
+    padding-bottom: 15px;
+}
+
+#previous-works {
     background-color: lightgray;
     font-family: 'Red Hat Display', sans-serif;
     padding-top: 10px;
@@ -54,7 +71,7 @@ body {
     clear: both;
 }
 
-.skills {
+#skills {
     background-color: darkgray;
     font-family: 'Red Hat Display', sans-serif;
     padding-top: 10px;
@@ -63,7 +80,7 @@ body {
     padding-right: 5%;
 }
 
-.resume {
+#resume {
     background-color: lightgray;
     font-family: 'Red Hat Display', sans-serif;
     padding-top: 10px;
@@ -72,7 +89,7 @@ body {
     padding-right: 5%;
 }
 
-.contact-me {
+#contact-me {
     background-color: darkgray;
     font-family: 'Red Hat Display', sans-serif;
     padding-top: 10px;
@@ -87,4 +104,27 @@ body {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+    /* .column{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 15px;
+    } */
+
+    /* .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 15px;
+    } */
+
+    /* #previous-works{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 15px;
+    } */
 }
