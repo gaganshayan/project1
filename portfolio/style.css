@@ -13,7 +13,7 @@ body {
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 40px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -28,7 +28,7 @@ body {
 #about-me {
     background-color: darkgray;
     font-family: 'Red Hat Display', sans-serif;
-    padding-top: 0px;
+    padding-top: 25px;
     padding-bottom: 10px;
     padding-left: 5%;
     padding-right: 5%;
@@ -41,9 +41,8 @@ body {
 .profilephoto {
     width: 25%;
     height: 25%;
-    /* padding-bottom: 15px; */
+    padding-bottom: 25px;
     border-radius: 5%;
-    padding-bottom: 15px;
 }
 
 #previous-works {
@@ -53,23 +52,27 @@ body {
     padding-bottom: 10px;
     padding-left: 5%;
     padding-right: 5%;
+    display: grid;
+    text-align: center;
 }
 
-.column {
+.container {
     font-family: 'Red Hat Display', sans-serif;
-    float: left;
-    width: 33.33%;
-    padding: 10px;
+    float: center;
+    /* width: 33.33%; */
     display: grid;
     justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 
-.row {
+/* .card {
     font-family: 'Red Hat Display', sans-serif;
     content: "";
     display: table;
     clear: both;
-}
+    align-content: center;
+} */
 
 #skills {
     background-color: darkgray;
@@ -89,6 +92,14 @@ body {
     padding-right: 5%;
 }
 
+.resume {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%; 
+}
+
 #contact-me {
     background-color: darkgray;
     font-family: 'Red Hat Display', sans-serif;
@@ -104,27 +115,29 @@ body {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
+    line-height: 50px;
+}
+
+label {
+    width: 250px;
+    line-height: normal;
 }
 
 @media only screen and (max-width: 500px) {
-    /* .column{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 15px;
-    } */
+    .row {
+        font-family: 'Red Hat Display', sans-serif;
+        content: "";
+        display: table;
+        clear: both;
+        flex-direction: column;
+        align-items: center;
+    }
 
-    /* .row{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-gap: 15px;
-    } */
-
-    /* #previous-works{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 15px;
-    } */
+    .resume {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 80%; 
+    }
 }
